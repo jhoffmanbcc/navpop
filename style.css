@@ -1,0 +1,38 @@
+
+
+body { background-color: #9bcdff;}
+
+
+#navigation-logos {
+
+
+	text-align: center;
+	list-style-type: none;
+}
+
+#navigation-logos li {
+
+	display:block;
+}
+
+
+#navigation-logos a img {
+
+opacity: 0.25;
+
+-webkit-transition: opacity 0.2s ease-in-out;
+-moz-transition: opacity 0.2s ease-in-out;
+-o-transition: opacity 0.2s ease-in-out;
+transition: opacity 0.2s ease-in-out;
+
+
+
+}
+
+#navigation-logos a:hover img, #navigation-logos a:focus img {
+
+opacity: 0.6;
+position: relative;
+left: 20px;
+
+}
